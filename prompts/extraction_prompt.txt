@@ -1,0 +1,15 @@
+Extract structured contract fields from the provided text and return a valid JSON object with these exact keys:
+- parties: array of party names
+- effective_date: date as string
+- term: contract term/duration as string
+- governing_law: jurisdiction/law as string
+- payment_terms: payment details as string
+- termination: termination conditions as string
+- auto_renewal: auto-renewal clause as string
+- confidentiality: confidentiality terms as string
+- indemnity: indemnity clause as string
+- liability_cap: object with "amount" (number) and "currency" (string)
+- signatories: array of objects with "name" and "title"
+
+If a field is not found, use null for strings/objects or empty array for arrays.
+Return ONLY valid JSON, no additional text.
