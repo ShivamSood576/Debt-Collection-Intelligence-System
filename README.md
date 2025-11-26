@@ -105,6 +105,9 @@ OPENAI_API_KEY=sk-proj-xxxxx
 
 ---
 
+<img width="1799" height="622" alt="image" src="https://github.com/user-attachments/assets/1f04e6d8-c37e-4300-8b15-4e0804f7c2c5" />
+
+
 ## 📡 API Endpoints
 
 ### 1. POST `/ingest` - Upload & Process Contracts
@@ -674,3 +677,4 @@ For questions or issues:
 ---
 
 **Built with** ❤️ **using FastAPI, LangChain, OpenAI, and Chroma**
+
